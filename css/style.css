@@ -6,6 +6,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: white;
 }
 
 header {
@@ -198,4 +199,41 @@ nav-bar ul li a {
 .nav-name {
     font-size: 2rem;
     font-weight: bold;
+}
+
+h1.article-type {
+    padding-top: 30px;
+}
+
+article h2{
+    font-size: 18px;
+}
+
+article p{
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.thumbnail{
+    min-height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+article a{
+    margin: 10px;
+    display: block;
+    border: solid 1px #ddd;
+    color: inherit;
+    text-decoration: none;
+}
+
+.article-page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 300px;
+    flex: none;
 }
