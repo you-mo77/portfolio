@@ -158,7 +158,7 @@ nav-bar {
 }
 
 nav-bar ul {
-    display: flex; 
+    display: inline; 
     justify-content: right; 
     list-style: none;
     padding: 0;
