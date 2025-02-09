@@ -158,7 +158,8 @@ nav-bar {
 }
 
 nav-bar ul {
-    display: inline; 
+    display: flex; 
+    flex-wrap: wrap;
     justify-content: right; 
     list-style: none;
     padding: 0;
@@ -169,6 +170,7 @@ nav-bar ul {
 
 nav-bar ul li {
     display: inline-block; 
+    white-space: nowrap;
 }
 
 nav-bar ul li a {
