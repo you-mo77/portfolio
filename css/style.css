@@ -9,7 +9,16 @@ header {
     background-color: #1f1e33;
     color: white;
     text-align: center;
-    padding: 10rem;
+    padding-bottom: 10rem;
+}
+
+.prof-img img{
+    padding-top: 10rem;
+    width: 85vw;
+    max-width: 570px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -132,7 +141,5 @@ hr {
 }
 
 img {
-    width: 50vw;
-    max-width: 570px;
-    height: auto;
+    
 }
