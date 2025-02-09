@@ -144,3 +144,37 @@ hr {
     border: none;
 }
 
+nav-bar {
+    display: block; /* カスタムタグをブロック要素にする */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1f1e33;
+    opacity: 0.8;
+    color: white;
+    z-index: 777;
+    padding: 1rem 0;
+}
+
+nav-bar ul {
+    display: flex; /* 横並びにする */
+    justify-content: right; /* 右寄せ */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px; /* 間隔を空ける */
+}
+
+nav-bar ul li {
+    display: inline-block; /* リスト項目を横並びにする */
+}
+
+nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+nav-bar 
