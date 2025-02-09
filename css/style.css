@@ -130,3 +130,9 @@ hr {
     background-color: #494f52;
     border: none;
 }
+
+img {
+    width: 50vw;
+    max-width: 570px;
+    height: auto;
+}
