@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1e33;
+}
+
+header {
+    background-color: #1f1e33;
+    color: white;
+    text-align: center;
+    padding: 10rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.slide {
+    opacity: 0;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    transform: translateY(50px);
+    position: relative;
+}
+
+
+.slide.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.skills-list li {
+    background: #1f1e33;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.information {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+}
+
+.information th, .information td {
+    border-bottom: 2px solid #494f52;
+    padding: 1em;
+}
+
+.information th {
+    border-bottom: 2px solid #2A8383;
+    font-weight: bold;
+    text-align: center;
+    width: 20%;
+    min-width: 4em;
+}
+
+.freetext {
+    padding: 10px 15px;
+}
+
+.container {
+    max-width: 900px; /* 必要に応じて調整 */
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.links li {
+    background: #1f1e33;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+h3 {
+    padding: 3px 10px;
+}
+
+hr {
+    height: 2px;
+    background-color: #494f52;
+    border: none;
+}
