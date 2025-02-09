@@ -21,41 +21,47 @@
 
 <body>
     <div class="container">
-        <h1 class="article-type">原神日記・メモ</h1>
+        <h1 class="article-type">原神メモ</h1>
         <hr>
         <div class="article-page">
+            <!--以下記事１つ-->
             <article>
-                <a href="#">
+                <button data-target="dialog1">
                     <div class="thumbnail" style="background-image: url(assets/images/genshin_1.png);"></div>
 
-                    <h2>記事1</h2>
-                    <p>短文説明</p>
-                </a>
+                    <h2>召使引いたときのやつ</h2>
+                    <p>良き</p>
+                </button>
             </article>
-            <article>
-                <a href="#">
-                    <div class="thumbnail" style="background-image: url(assets/images/genshin_1.png);"></div>
 
-                    <h2>記事1</h2>
-                    <p>短文説明</p>
-                </a>
-            </article>
-            <article>
-                <a href="#">
-                    <div class="thumbnail" style="background-image: url(assets/images/genshin_1.png);"></div>
+            <dialog id="dialog1">
+                <div class="detail">
+                    <img src="assets/images/genshin_1.png">
+                    <table class="information">
+                        <tbody>
+                            <tr>
+                                <th>タイトル</th>
+                                <td>召使引いた時のやつ</td>
+                            </tr>
+                            <tr>
+                                <th>更新日</th>
+                                <td>2025/02/10</td>
+                            </tr>
+                            <tr>
+                                <th>詳細</th>
+                                <td>初確定枠</td>
+                            </tr>
+                            <tr>
+                                <th>リンク</th>
+                                <td><a href="#"></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="close">閉じる</button>
+                </div>
+            </dialog>
+            <!--以上記事１つ-->
 
-                    <h2>記事1</h2>
-                    <p>短文説明</p>
-                </a>
-            </article>
-            <article>
-                <a href="#">
-                    <div class="thumbnail" style="background-image: url(assets/images/genshin_1.png);"></div>
-
-                    <h2>記事1</h2>
-                    <p>短文説明</p>
-                </a>
-            </article>
         </div>
 
     </div>
