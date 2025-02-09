@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(../assets/images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -79,6 +82,7 @@ button {
     border-radius: 5px;
     text-align: center;
     white-space: nowrap;
+    opacity: 0.8;
 }
 
 .information {
@@ -127,6 +131,7 @@ button {
     border-radius: 5px;
     text-align: center;
     white-space: nowrap;
+    opacity: 0.8;
 }
 
 h3 {
