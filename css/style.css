@@ -167,6 +167,7 @@ nav-bar ul {
     padding: 0;
     gap: 20px; 
     width: 100%;
+    flex-grow: 1;
 }
 
 nav-bar ul li {
