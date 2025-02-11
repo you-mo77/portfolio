@@ -107,7 +107,8 @@ button {
 
 .freetext {
     padding: 15px 15px;
-    width: 100%;
+    width: 93.5%;
+    max-width: 700px;
 }
 
 .container {
