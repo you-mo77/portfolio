@@ -341,4 +341,5 @@ button.close {
     color: white;
     font-weight: bold;
     font-size: 16pax;
+    max-width: 100%;
 }
