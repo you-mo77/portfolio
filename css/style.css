@@ -340,6 +340,6 @@ button.close {
     margin: 0;
     color: red;
     font-weight: bold;
-    width: 50%;
+    width: 100%;
     max-width: 700px;
 }
